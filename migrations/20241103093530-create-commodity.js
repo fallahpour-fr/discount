@@ -10,7 +10,6 @@ module.exports = {
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
     await queryInterface.createTable('commodity', {
-       id: Sequelize.INTEGER,
        name:Sequelize.STRING,
        detailes:Sequelize.SMALLINT,
        price:Sequelize.INTEGER,
