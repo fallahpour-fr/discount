@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "discountuser",
+    "password": "discountpassword",
+    "database": "discountdatabase",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "discountuser",
+    "password": "discountpassword",
+    "database": "discountdatabase_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "discountuser",
+    "password": "discountpassword",
+    "database": "discountdatabase_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
